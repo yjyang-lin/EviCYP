@@ -6,7 +6,7 @@
 
 ### (1) Feature Extraction
 - **Python**: 3.10.18
-- **Operating System**: Windows
+- **Operating System**: Windows(CPU)
 ```text
 torch==2.8.0
 torchvision==0.23.0
@@ -25,4 +25,12 @@ chemprop==1.6.1
 esm==3.2.1.post1
 biopython==1.85
 scikit-learn==1.7.2
+```
+### (2) Model Training
+- **Python**: 3.9.20
+- **Operating System**: Linux (with CUDA 12.4)
+```text
+numpy==1.26.4
+torch==2.4.0
+scikit-learn==1.6.1
 ```
