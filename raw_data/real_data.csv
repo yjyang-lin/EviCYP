@@ -1,0 +1,21 @@
+notes,Source,Name,SMILES,CYP1A2,CYP2A6,CYP2B6,CYP2C8,CYP2C9,CYP2C19,CYP2D6,CYP2E1,CYP3A4,Standardized_SMILES
+,10.1080/00498250701534877,eupatilin,COC1=C(C=C(C=C1)C2=CC(=O)C3=C(O2)C=C(C(=C3O)OC)O)OC,1,,,1,,,,,,COc1ccc(-c2cc(=O)c3c(O)c(OC)c(O)cc3o2)cc1OC
+,10.1007/s12272-010-1214-1,jaceosidin,COC1=C(C=CC(=C1)C2=CC(=O)C3=C(O2)C=C(C(=C3O)OC)O)O,1,,,,,,,,,COc1cc(-c2cc(=O)c3c(O)c(OC)c(O)cc3o2)ccc1O
+,10.1002/bdd.1835,jatrorrhizine,COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)O)OC)OC,1,0,,,0,0,,,0,COc1cc2c(cc1O)CC[n+]1cc3c(OC)c(OC)ccc3cc1-2
+,10.1016/j.dmpk.2015.05.005,homoegonol,COC1=C(C=C(C=C1)C2=CC3=C(O2)C(=CC(=C3)CCCO)OC)OC,1,0,0,0,0,0,,0,,COc1ccc(-c2cc3cc(CCCO)cc(OC)c3o2)cc1OC
+,10.3109/00498254.2015.1047812,niclosamide,C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,1,,0,0,0,0,0,0,0,O=C(Nc1ccc([N+](=O)[O-])cc1Cl)c1cc(Cl)ccc1O
+,10.2133/dmpk.dmpk-10-rg-125;10.1016/S1875-5364(17)30099-7,Ferulic acid,COC1=C(C=CC(=C1)/C=C/C(=O)O)O,1,,1,,,1,1,,1,COc1cc(/C=C/C(=O)O)ccc1O
+,10.1124/dmd.106.011932,Muraglitazar,CC1=C(N=C(O1)C2=CC=CC=C2)CCOC3=CC=C(C=C3)CN(CC(=O)O)C(=O)OC4=CC=C(C=C4)OC,0,0,0,1,1,1,1,0,1,COc1ccc(OC(=O)N(CC(=O)O)Cc2ccc(OCCc3nc(-c4ccccc4)oc3C)cc2)cc1
+,10.1124/dmd.117.078220,Verinurad,CC(C)(C(=O)O)SC1=C(C=NC=C1)C2=CC=C(C3=CC=CC=C32)C#N,0,0,0,0,,0,0,0,,CC(C)(Sc1ccncc1-c1ccc(C#N)c2ccccc12)C(=O)O
+,10.1124/dmd.117.078220,Verinurad M1,CC(C)(C(=O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)C(=O)O)O)O)O)SC2=C(C=NC=C2)C3=CC=C(C4=CC=CC=C43)C#N,0,0,0,1,0,0,0,0,,CC(C)(Sc1ccncc1-c1ccc(C#N)c2ccccc12)C(=O)O[C@@H]1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O
+,10.1248/bpb.35.413,YM-222714,CN1CCCN(CC1)C2=CC=C(C=C2)C(=O)NC3=C(C=CC=C3O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)O)O)O)O)NC(=O)C5=CC=C(C=C5)OC,0,0,0,0,0,0,0,0,,COc1ccc(C(=O)Nc2cccc(O[C@@H]3O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]3O)c2NC(=O)c2ccc(N3CCCN(C)CC3)cc2)cc1
+,10.1080/00498250410001691280,S-etodolac,CCC1=C2C(=CC=C1)C3=C(N2)[C@](OCC3)(CC)CC(=O)O,,,,,1,,,,,CCc1cccc2c3c([nH]c12)[C@](CC)(CC(=O)O)OCC3
+,10.1080/00498250410001691280,R-etodolac,CCC1=C2C(=CC=C1)C3=C(N2)[C@@](OCC3)(CC)CC(=O)O,,,,,1,,,,,CCc1cccc2c3c([nH]c12)[C@@](CC)(CC(=O)O)OCC3
+,10.1080/00498254.2016.1203041,hydrolysed polyandric acid A,C[C@]1(CCC2=COC=C2)[C@H](CO)CC[C@@H]3[C@@H]1C[C@@H](O)C=C3C(O)=O,0,,0,,1,0,,,1,C[C@]1(CCc2ccoc2)[C@H](CO)CC[C@H]2C(C(=O)O)=C[C@H](O)C[C@@H]21
+,10.1124/dmd.116.070680,Epacadostat M11,NS(=O)(NCCNC1=NON=C1C(NC2=CC=C(C(Br)=C2)F)=N)=O,1,,,,,1,,,1,N=C(Nc1ccc(F)c(Br)c1)c1nonc1NCCNS(N)(=O)=O
+,10.1016/j.ejps.2019.105195,TM5441,C1=CC(=CC(=C1)NC(=O)COCC(=O)NC2=C(C=C(C=C2)Cl)C(=O)O)C3=COC=C3,0,,0,0,,0,,0,1,O=C(COCC(=O)Nc1ccc(Cl)cc1C(=O)O)Nc1cccc(-c2ccoc2)c1
+,10.3390/pharmaceutics12090865,Enavogliflozin(DWP16001),C1CC1C2=CC=C(C=C2)CC3=CC(=C4CCOC4=C3Cl)[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O,0,0,0,,,1,,0,1,OC[C@H]1O[C@@H](c2cc(Cc3ccc(C4CC4)cc3)c(Cl)c3c2CCO3)[C@H](O)[C@@H](O)[C@@H]1O
+,10.3390/pharmaceutics12090865,DWP16001 M1,C1CC1C2=CC=C(C=C2)CC3=CC(=C4CC(OC4=C3Cl)O)[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O,0,0,0,0,0,0,0,0,1,OC[C@H]1O[C@@H](c2cc(Cc3ccc(C4CC4)cc3)c(Cl)c3c2CC(O)O3)[C@H](O)[C@@H](O)[C@@H]1O
+,10.3390/pharmaceutics12090865,DWP16001 M2,ClC1=C2OCCC2=C([C@H]3[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O3)C=C1CC(C=C4)=CC=C4C5(O)CC5,0,0,0,0,0,0,0,0,1,OC[C@H]1O[C@@H](c2cc(Cc3ccc(C4(O)CC4)cc3)c(Cl)c3c2CCO3)[C@H](O)[C@@H](O)[C@@H]1O
+,10.1111/jphp.13324,bavachin,CC(=CCC1=CC2=C(C=C1O)O[C@@H](CC2=O)C3=CC=C(C=C3)O)C,,0,,1,1,1,,,,CC(C)=CCc1cc2c(cc1O)O[C@H](c1ccc(O)cc1)CC2=O
+The complete data will be made publicly available upon acceptance of the paper.,,,,,,,,,,,,,
