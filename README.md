@@ -1,3 +1,4 @@
+## EviCYP: in silico prediction of Cytochrome P450 substrates based on vector quantization and evidential deep learning
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0.0-orange)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)
@@ -34,3 +35,6 @@ numpy==1.26.4
 torch==2.4.0
 scikit-learn==1.6.1
 ```
+
+## Acknowledgment of Open-Source Code Contributions
+The code is based on the open-source repositories: [EviDTI](https://github.com/zhaoyanpeng208/EviDTI), [SVQDTI](https://github.com/jdcc2098/SVQDTI), [biomed-multi-view](https://github.com/BiomedSciAI/biomed-multi-view), [esm](https://github.com/evolutionaryscale/esm), many thanks to the authors!
