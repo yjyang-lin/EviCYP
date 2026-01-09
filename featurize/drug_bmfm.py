@@ -131,15 +131,29 @@ def get_rdkit_features_from_smiles(smiles, norm_params=None):
     fingerprint = compute_morgan_fp(mol, radius=2, nBits=512)
     return descriptors, fingerprint
 
-def read_data(datadir, sep=','):
-    train = pd.read_csv(f'{datadir}/train.csv', sep=sep)
-    val = pd.read_csv(f'{datadir}/val.csv', sep=sep)
-    test = pd.read_csv(f'{datadir}/test.csv', sep=sep)
-    alldata = pd.concat([train, val, test])
-
+def read_data(datadir, sep=',', use_val_only=False):
+    """
+    Read data from CSV files in the specified directory.
+    
+    Args:
+        datadir (str): Directory containing data files
+        sep (str): Separator used in CSV files
+        use_val_only (bool): If True, only read val.csv (for external validation sets)
+    
+    Returns:
+        pd.Series: Unique SMILES strings
+    """
+    if use_val_only:
+        val = pd.read_csv(f'{datadir}/val.csv', sep=sep)
+        alldata = val
+    else:
+        train = pd.read_csv(f'{datadir}/train.csv', sep=sep)
+        val = pd.read_csv(f'{datadir}/val.csv', sep=sep)
+        test = pd.read_csv(f'{datadir}/test.csv', sep=sep)
+        alldata = pd.concat([train, val, test])
+    
     entities = alldata['SMILES'].unique()
     logger.info(f'{len(entities)} unique entities found')
-
     return entities
 
 def featurize_data(entities, norm_params):
@@ -172,11 +186,14 @@ if __name__ == '__main__':
     datadir = './data_random'
     logger.info(f"Reading data from {datadir}")
 
+    # Set to True if only val.csv exists
+    use_val_only = not os.path.exists(f'{datadir}/train.csv') and not os.path.exists(f'{datadir}/test.csv')
+
     # Load normalization parameters
     norm_params = load_normalization_params(datadir)
     logger.info(f"Loaded normalization parameters for {len(norm_params)} descriptors")
     
-    entities = read_data(datadir)
+    entities = read_data(datadir, use_val_only=use_val_only)
     out, nan_entities = featurize_data(entities, norm_params)
  
     if nan_entities:

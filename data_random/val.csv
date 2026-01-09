@@ -1,0 +1,10 @@
+SMILES,Protein,Y
+C#C[C@]1(O)CC[C@H]2[C@@H]3CCc4cc(O)ccc4[C@H]3CC[C@@]21C,CYP1A2,1
+C=C(C)[C@@H]1CC[C@]2(C(=O)O)CC[C@]3(C)[C@H](CC[C@@H]4[C@@]5(C)CC[C@H](O)[C@@](C)(CO)[C@@H]5CC[C@]43C)[C@@H]12,CYP1A2,1
+C=C[C@]1(C)C[C@@H](OC(=O)CSC2C[C@H]3CC[C@@H](C2)N3C)[C@]2(C)[C@H](C)CC[C@]3(CCC(=O)[C@H]32)[C@@H](C)[C@@H]1O,CYP1A2,0
+C=Cc1ccccc1,CYP1A2,1
+CC#CCC(C)[C@H](O)/C=C/[C@@H]1[C@H]2c3cccc(CCCC(=O)O)c3O[C@H]2C[C@H]1O,CYP1A2,0
+CC(=O)Nc1ccccc1,CYP1A2,1
+CC(=O)O[C@H]1C[C@]2(O)[C@@H]3CC[C@@H]4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]2(C)[C@H]1c1ccc(=O)oc1,CYP1A2,0
+CC(=O)O[C@]1(C(C)=O)CC[C@H]2[C@@H]3C[C@H](C)C4=CC(=O)CC[C@]4(C)[C@H]3CC[C@@]21C,CYP1A2,0
+CC(=O)c1cc2ccccc2s1,CYP1A2,1
